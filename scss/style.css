@@ -147,7 +147,7 @@ header .container img {
   margin: 0 auto;
   width: 1445px;
   background-color: #F4F4F4;
-  padding: 50px 0 50px;
+  padding: 50px 0;
 }
 
 .about_me .about_container {
@@ -177,5 +177,69 @@ header .container img {
 
 .about_me .about_container .text_block :nth-child(2) {
   margin: 30px 0;
+}
+
+.skills {
+  padding: 50px 0;
+  margin: 0 auto;
+  width: 1445px;
+  background-color: #fff;
+}
+
+.skills .skills_container {
+  width: 65.4%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  text-align: center;
+}
+
+.skills .skills_container p {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  color: #828282;
+  padding: 23px 0 41px 0;
+}
+
+.skills .stars {
+  width: 92px;
+  font-size: 20px;
+  line-height: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.skills .stars p {
+  padding: 0;
+}
+
+.skills .stars_1 :nth-child(5) {
+  color: #E5E5E5;
+}
+
+.skills .stars_2 :nth-child(4) {
+  color: #E5E5E5;
+}
+
+.skills .stars_2 :nth-child(5) {
+  color: #E5E5E5;
+}
+
+.skills .stars_3 :nth-child(5) {
+  color: #E5E5E5;
+}
+
+.skills .stars_4 {
+  padding-top: 15px;
 }
 /*# sourceMappingURL=style.css.map */
