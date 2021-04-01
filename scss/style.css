@@ -71,6 +71,15 @@ body {
   font-family: "Roboto Regular";
 }
 
+h2 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 34px;
+  text-align: center;
+  color: #070707;
+  margin: 0 0 50px 0;
+}
+
 header {
   margin: 0 auto;
   width: 1445px;
@@ -127,10 +136,46 @@ header .container .text_block p {
   font-weight: 500;
   font-size: 18px;
   text-align: right;
-  line-height: 21px;
+  line-height: 21.1px;
 }
 
 header .container img {
   margin: 68px 0 0;
+}
+
+.about_me {
+  margin: 0 auto;
+  width: 1445px;
+  background-color: #F4F4F4;
+  padding: 50px 0 50px;
+}
+
+.about_me .about_container {
+  width: 65.4%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.about_me .about_container .text_block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0 0 0 44px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23.4px;
+}
+
+.about_me .about_container .text_block :nth-child(2) {
+  margin: 30px 0;
 }
 /*# sourceMappingURL=style.css.map */
